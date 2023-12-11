@@ -1,0 +1,23 @@
+﻿@model Visitor
+
+
+    <div class="card my-2">
+        <div class="card-body">
+            <div>
+                @Html.LabelFor(m=>m.VisitorId) : @Html.DisplayFor(m => m.VisitorId)
+            </div>
+            <div>
+                @Html.LabelFor(m => m.FirstName) : @Html.DisplayFor(m => m.FirstName)
+            </div>
+            <div>
+                @Html.LabelFor(m => m.LastName) : @Html.DisplayFor(m => m.LastName)
+            </div>
+            <div>
+                @Html.LabelFor(m => m.Age) : @Html.DisplayFor(m => m.Age)
+            </div>
+            <div>
+                @Html.LabelFor(m => m.IsMinor) : @Html.DisplayFor(m => m.IsMinor)
+            </div>
+        </div>
+    </div>
+    
